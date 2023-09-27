@@ -8,6 +8,9 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+.logo>h3{
+  color: #146C94;
+}
 .navlist>ul{
   display: flex;
   list-style: none;
@@ -23,7 +26,7 @@ body {
   text-align: center;
   line-height: 2px;
 }
-.cv>a{
+/* .cv>a{
   text-decoration: none;
   color:black;
   border: 2px solid black;
@@ -32,7 +35,7 @@ body {
   padding: 5px;
   font-family: 'Poppins', sans-serif;
   background: white;
-}
+} */
 .maincontent{
   padding-top: 100px;
   line-height: 20px;
@@ -92,6 +95,67 @@ body {
 }
 .indcators>svg{
   margin: 0 10px;
+}
+.CircularProgressbar .CircularProgressbar-text{
+  font-size: 12px !important;
+  fill: #146C94;
+}
+.CircularProgressbar .CircularProgressbar-path{
+  stroke: #146C94;
+}
+
+
+
+/* CSS */
+.button-50 {
+  text-decoration: none;
+  appearance: button;
+  background-color: #146C94;
+  background-image: none;
+  border: 1px solid #146C94;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#146C94 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #00FFCA;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
 }
 
 

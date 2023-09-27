@@ -16,7 +16,7 @@ export default function NavBar() {
             </ul>
         </div>
         <div className="cv">
-            <a href={require("../imgs/cv.pdf")} download="myFile">Download CV</a>
+            <a href={require("../imgs/cv.pdf")} download="myFile" className='button-50'>Download CV</a>
         </div>
     </div>
   )
