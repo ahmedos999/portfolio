@@ -33,6 +33,32 @@ body {
   font-family: 'Poppins', sans-serif;
   background: white;
 }
+.maincontent{
+  padding-top: 100px;
+  line-height: 20px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* .maincontent>.headers{
+
+} */
+.maincontent>.profile>.cover{
+  position: relative;
+  width: 500px;
+  height: 400px;
+  background: rgb(149, 176, 231);
+  border-radius: 10px;
+  box-shadow: rgba(46, 62, 240, 0.4) 5px 5px, rgba(95, 46, 240, 0.3) 10px 10px, rgba(88, 46, 240, 0.2) 15px 15px, rgba(69, 46, 240, 0.1) 20px 20px, rgba(88, 46, 240, 0.05) 25px 25px;
+}
+.maincontent>.profile>img{
+  position: absolute;
+  top: 45px;
+  right: 205  px;
+  border-radius: 8px;
+}
+
 
 
 
