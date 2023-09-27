@@ -48,7 +48,7 @@ body {
   font-size: 18px;
 }
 .maincontent>.headers>h1{
-  color: rgba(7, 123, 161);
+  color: #146C94;
 }
 
 .maincontent>.profile{
@@ -59,16 +59,40 @@ body {
   width: 465px;
   height: 400px;
   background: rgb(229, 236, 249);
-  border-radius: 10px;
-  box-shadow: rgba(46, 191, 240, 0.4) 5px 5px, rgba(46, 204, 240, 0.3) 10px 10px, rgba(46, 211, 240, 0.2) 15px 15px, rgba(46, 224, 240, 0.1) 20px 20px, rgba(46, 217, 240, 0.05) 25px 25px;
+  border-radius: 100px 10px 10px 10px;
+  /* color: #088395;
+  color:#05BFDB; Other colors*/
+  box-shadow: rgba(19, 136, 175, 0.4) 5px 5px, rgba(4, 126, 153, 0.3) 10px 10px, rgba(46, 211, 240, 0.2) 15px 15px, rgba(46, 224, 240, 0.1) 20px 20px, rgba(46, 217, 240, 0.05) 25px 25px;
 }
 .maincontent>.profile>img{
   position: absolute;
   top: 45px;
-  right: 205  px;
   border-radius: 8px;
 }
 
+/* About page  */
+
+.About{
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+.About>h2{
+  color: #146C94;
+  font-size: 26px;
+  letter-spacing: 1.2px;
+}
+.About>p{
+  font-size: 18px;
+}
+.indcators{
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
+.indcators>svg{
+  margin: 0 10px;
+}
 
 
 
