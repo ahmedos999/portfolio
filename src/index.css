@@ -41,16 +41,26 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-/* .maincontent>.headers{
+.maincontent>.headers{
+  width: 40%;
+}
+.maincontent>.headers>p{
+  font-size: 18px;
+}
+.maincontent>.headers>h1{
+  color: rgba(7, 123, 161);
+}
 
-} */
+.maincontent>.profile{
+
+}
 .maincontent>.profile>.cover{
   position: relative;
-  width: 500px;
+  width: 465px;
   height: 400px;
-  background: rgb(149, 176, 231);
+  background: rgb(229, 236, 249);
   border-radius: 10px;
-  box-shadow: rgba(46, 62, 240, 0.4) 5px 5px, rgba(95, 46, 240, 0.3) 10px 10px, rgba(88, 46, 240, 0.2) 15px 15px, rgba(69, 46, 240, 0.1) 20px 20px, rgba(88, 46, 240, 0.05) 25px 25px;
+  box-shadow: rgba(46, 191, 240, 0.4) 5px 5px, rgba(46, 204, 240, 0.3) 10px 10px, rgba(46, 211, 240, 0.2) 15px 15px, rgba(46, 224, 240, 0.1) 20px 20px, rgba(46, 217, 240, 0.05) 25px 25px;
 }
 .maincontent>.profile>img{
   position: absolute;
