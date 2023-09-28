@@ -3,6 +3,9 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 20px;
 }
+/* .gap{
+  height: 20%;
+} */
 .nav{
   display: flex;
   justify-content: space-around;
@@ -54,9 +57,9 @@ body {
   color: #146C94;
 }
 
-.maincontent>.profile{
+/* .maincontent>.profile{
 
-}
+} */
 .maincontent>.profile>.cover{
   position: relative;
   width: 465px;
