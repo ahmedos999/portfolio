@@ -159,4 +159,40 @@ body {
 }
 
 
+/* services */
 
+.service{
+  margin: 0 auto;
+  /* width: 90%; */
+  text-align: center;
+  
+}
+.service>h2{
+  color: #146C94;
+  font-size: 26px;
+  letter-spacing: 1.2px;
+}
+.service>p{
+  font-size: 18px;
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #146C94;
+  background: #146C94;
+}
+.card>img{
+  width: 40%;
+  height: 40%;
+}
+.card>h4{
+  color: #00FFCA;
+}
+.card>p{
+  color: #fff;
+}
