@@ -205,3 +205,12 @@ body {
 .work{
   text-align: center;
 }
+.project-card{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+.project-card>img{
+  width: 90%;
+  height: 500px;
+}
