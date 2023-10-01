@@ -210,7 +210,18 @@ body {
   grid-template-columns: 2fr 1fr;
   gap: 30px;
 }
-/* .project-card>img{
-  width: 90%;
+.project-card>img{
+  width: 100%;
   height: 500px;
-} */
+}
+.project-card>div{
+  text-align: left;
+}
+.project-card>div>h2{
+  font-size: 28px;
+  font-weight: bold;
+  color: #146C94;
+}
+.project-card>div>p{
+  font-size: 18px;
+}
