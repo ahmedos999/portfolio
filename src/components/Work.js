@@ -10,7 +10,7 @@ export default function Work() {
             <h2>E-commarce Mobie application</h2>
             <p>Mobile applcation for shopping from your mobile applcation with all the necessary function</p>
             <p>projects use Riverpod for state managment soluation with 10 diffrent screen, data is fetch from local json file in project</p>
-            <a href="">Project Preview Link</a>
+            <a href="" className='button-50'>Project Preview Link</a>
             </div>
         </div>
     </div>
