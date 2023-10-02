@@ -225,3 +225,26 @@ body {
 .project-card>div>p{
   font-size: 18px;
 }
+
+/* grid-auto-flow: row dense; */
+.project-card-1{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  grid-auto-flow: row dense;
+}
+.project-card-l>img{
+  width: 100%;
+  height: 500px;
+}
+.project-card-l>div{
+  text-align: left;
+}
+.project-card-l>div>h2{
+  font-size: 28px;
+  font-weight: bold;
+  color: #146C94;
+}
+.project-card-l>div>p{
+  font-size: 18px;
+}
