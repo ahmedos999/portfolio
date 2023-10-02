@@ -208,10 +208,14 @@ body {
 .project-card{
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 30px;
+  gap: 40px;
+  
 }
 .project-card>img{
-  width: 100%;
+  border: 4px solid #146C94;
+  border-radius: 10px;
+  margin: 20px;
+  width: 90%;
   height: 500px;
 }
 .project-card>div{
@@ -230,11 +234,14 @@ body {
 .project-card-l{
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 30px;
+  gap: 40px;
   direction: rtl;
 }
 .project-card-l>img{
-  width: 100%;
+  border: 4px solid #146C94;
+  border-radius: 10px;
+  margin: 20px;
+  width: 90%;
   height: 500px;
 }
 .project-card-l>div{
