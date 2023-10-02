@@ -227,11 +227,11 @@ body {
 }
 
 /* grid-auto-flow: row dense; */
-.project-card-1{
+.project-card-l{
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 30px;
-  grid-auto-flow: row dense;
+  direction: rtl;
 }
 .project-card-l>img{
   width: 100%;
