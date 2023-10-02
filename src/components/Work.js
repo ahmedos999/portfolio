@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../imgs/test.png'
+import img from '../imgs/project-1.png'
 export default function Work() {
   return (
     <div className='work'>
