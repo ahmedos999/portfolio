@@ -220,6 +220,7 @@ body {
 }
 .project-card>div{
   text-align: left;
+  margin: auto;
 }
 .project-card>div>h2{
   font-size: 28px;
@@ -246,6 +247,7 @@ body {
 }
 .project-card-l>div{
   text-align: left;
+  margin: auto;
 }
 .project-card-l>div>h2{
   font-size: 28px;
