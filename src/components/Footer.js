@@ -15,13 +15,13 @@ export default function Footer() {
             </h4>
             <div className="socials">
             <div className="footer-icon">
-                <AiFillBehanceCircle></AiFillBehanceCircle>
+                <a href="https://www.behance.net/ahmedxosman"><AiFillBehanceCircle></AiFillBehanceCircle></a>
             </div>
             <div className="footer-icon">
-                <AiFillLinkedin></AiFillLinkedin>
+                <a href="https://www.linkedin.com/in/ahmed-osman-61783223a/"><AiFillLinkedin></AiFillLinkedin></a>
             </div>
             <div className="footer-icon">
-                <AiFillGithub></AiFillGithub>
+               <a href="https://github.com/ahmedos999"> <AiFillGithub></AiFillGithub></a>
             </div>
             </div>
 

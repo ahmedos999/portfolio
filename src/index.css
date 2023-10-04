@@ -257,3 +257,30 @@ body {
 .project-card-l>div>p{
   font-size: 18px;
 }
+
+footer{
+  margin: 0 -20px -20px -20px;
+  padding: 20px;
+  background: #146C94;
+  color: #00FFCA;
+  text-align: center;
+}
+footer>h3{
+  font-size: 25px;
+}
+footer>h4{
+  color: #fff;
+}
+.socials{
+  display: flex;
+  justify-content: center;
+}
+.footer-icon{
+  font-size: 50px;
+  margin: 10px;
+  color: #00FFCA;
+}
+.footer-icon>a{
+  text-decoration: none;
+  color: #00FFCA;
+}
