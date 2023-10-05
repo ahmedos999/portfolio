@@ -9,9 +9,10 @@ export default function NavBar() {
         </div>
         <div className="navlist">
             <ul>
-                <li className='active'>Home</li>
+                <li>Home</li>
                 <li>About</li>
-                <li>Skills</li>
+                <li>Services</li>
+                <li>Projects</li>
                 <li>Contact me</li>
             </ul>
         </div>
