@@ -45,6 +45,7 @@ body {
   align-items: center;
 }
 .maincontent>.headers{
+  line-height: 1.2px;
   width: 40%;
 }
 .maincontent>.headers>p{
