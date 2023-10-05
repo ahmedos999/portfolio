@@ -22,9 +22,6 @@ body {
   margin: 0 10px;
   font-size: 18px;
 }
-.active{
-  text-decoration: underline;
-}
 .logo{
   text-align: center;
   line-height: 2px;
@@ -42,7 +39,7 @@ body {
 .maincontent{
   padding-top: 100px;
   line-height: 20px;
-  height: 400px;
+  /* height: 400px; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -291,4 +288,54 @@ footer>h4{
 .footer-icon>a{
   text-decoration: none;
   color: #00FFCA;
+}
+
+
+/* media querys */
+
+@media all and (max-width: 700px) {
+  .nav{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* color: red; */
+  } 
+  .navlist>ul>li{
+    margin: 0 5px;
+    font-size: 16px;
+  }
+  .maincontent{
+    /* padding-top: 100px; */
+    display: block;
+    line-height: 20px;
+    /* height: 400px; */
+  }
+  .maincontent>.profile>.cover{
+    position: relative;
+    width: 465px;
+    height: 400px;
+    background: rgb(229, 236, 249);
+    border-radius: 100px 10px 10px 10px;
+    /* color: #088395;
+    color:#05BFDB; Other colors*/
+    box-shadow: rgba(19, 136, 175, 0.4) 5px 5px, rgba(4, 126, 153, 0.3) 10px 10px, rgba(46, 211, 240, 0.2) 15px 15px, rgba(46, 224, 240, 0.1) 20px 20px, rgba(46, 217, 240, 0.05) 25px 25px;
+  }
+  .maincontent>.profile>img{
+    position: absolute;
+    top: 515px;
+    border-radius: 8px;
+  }
+  .maincontent>.headers{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .maincontent>.headers>p{
+    font-size: 18px;
+  }
+  .maincontent>.headers>h1{
+    color: #146C94;
+  }
 }
