@@ -67,9 +67,9 @@ body {
   color:#05BFDB; Other colors*/
   box-shadow: rgba(19, 136, 175, 0.4) 5px 5px, rgba(4, 126, 153, 0.3) 10px 10px, rgba(46, 211, 240, 0.2) 15px 15px, rgba(46, 224, 240, 0.1) 20px 20px, rgba(46, 217, 240, 0.05) 25px 25px;
 }
-.maincontent>.profile>img{
+.maincontent>.profile>.cover>img{
   position: absolute;
-  top: 45px;
+  bottom: 0;
   border-radius: 8px;
 }
 
@@ -313,7 +313,7 @@ footer>h4{
   }
   .maincontent>.profile>.cover{
     position: relative;
-    width: 465px;
+    width: 100%;
     height: 400px;
     background: rgb(229, 236, 249);
     border-radius: 100px 10px 10px 10px;
@@ -321,9 +321,10 @@ footer>h4{
     color:#05BFDB; Other colors*/
     box-shadow: rgba(19, 136, 175, 0.4) 5px 5px, rgba(4, 126, 153, 0.3) 10px 10px, rgba(46, 211, 240, 0.2) 15px 15px, rgba(46, 224, 240, 0.1) 20px 20px, rgba(46, 217, 240, 0.05) 25px 25px;
   }
-  .maincontent>.profile>img{
+  .maincontent>.profile>.cover>img{
     position: absolute;
-    top: 515px;
+    /* top: 515px; */
+    bottom: 0;
     border-radius: 8px;
   }
   .maincontent>.headers{

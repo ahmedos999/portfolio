@@ -14,8 +14,8 @@ export default function Main() {
             <p>Always happy to learn new things</p>
         </div>
         <div className="profile">
-            <div className="cover"></div>
-            <img src={img} alt=""/>
+            <div className="cover"><img src={img} alt=""/></div>
+            
         </div>
     </div>
   )
