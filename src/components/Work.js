@@ -7,6 +7,7 @@ export default function Work() {
   return (
     <div className='work'>
         <h2>Projects</h2>
+        <p>Explore my various project i have been working on</p>
         <div className="project-card">
             <img src={img} alt="" className="" />
             <div>
