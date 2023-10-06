@@ -342,4 +342,9 @@ footer>h4{
   .maincontent>.headers>h1{
     color: #146C94;
   }
+  .About{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
 }
