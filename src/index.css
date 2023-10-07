@@ -94,9 +94,7 @@ body {
   display: flex;
   margin: auto;
 }
-.indcators>svg{
-  margin: 0 10px;
-}
+
 .CircularProgressbar .CircularProgressbar-text{
   font-size: 12px !important;
   fill: #146C94;
@@ -346,5 +344,14 @@ footer>h4{
     margin: 0 auto;
     width: 90%;
     text-align: center;
+  }
+  .indcators{
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  .indcators>svg{
+    margin: 20px 10px;
+    width: 50%;
   }
 }
