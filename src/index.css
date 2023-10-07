@@ -354,4 +354,18 @@ footer>h4{
     margin: 20px 10px;
     width: 50%;
   }
+  .cards{
+    display: block;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #146C94;
+    background: #146C94;
+    margin: 10px auto;
+  }
+  
 }
