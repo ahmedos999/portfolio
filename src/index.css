@@ -200,6 +200,7 @@ body {
 }
 .work{
   text-align: center;
+  margin: 20px 0;
 }
 .work>h2{
   color: #146C94;
@@ -367,5 +368,25 @@ footer>h4{
     background: #146C94;
     margin: 10px auto;
   }
-  
+  .project-card{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+    
+  }
+  .project-card>div{
+    text-align: center;
+    margin: auto;
+  }
+  .project-card-l{
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 0px;
+    direction: rtl;
+  }
+
+  .project-card-l>div{
+    text-align: center;
+    margin: auto;
+  }
 }
