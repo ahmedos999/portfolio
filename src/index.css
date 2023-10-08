@@ -22,6 +22,9 @@ body {
   margin: 0 10px;
   font-size: 18px;
 }
+.navlist>ul{
+  width: max-content;
+}
 .logo{
   text-align: center;
   line-height: 2px;
@@ -303,7 +306,7 @@ footer>h4{
   } 
   .navlist>ul>li{
     margin: 0 5px;
-    font-size: 14px;
+    font-size: 16px;
   }
   .maincontent{
     /* padding-top: 100px; */
