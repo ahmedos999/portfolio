@@ -1,6 +1,8 @@
 import React from 'react'
+import { useTitle } from '../hooks/useTitle'
 
 export default function NavBar() {
+    useTitle('Ahmed portfolio')
   return (
     <div className='nav'>
         <div className="logo">
