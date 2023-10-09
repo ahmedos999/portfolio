@@ -17,6 +17,7 @@ body {
 .navlist>ul{
   display: flex;
   list-style: none;
+  padding: 0;
 }
 .navlist>ul>li{
   margin: 0 10px;
@@ -296,7 +297,122 @@ footer>h4{
 
 /* media querys */
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 900px) {
+  .nav{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* color: red; */
+  } 
+  .navlist>ul>li{
+    margin: 0 5px;
+    font-size: 16px;
+  }
+  .maincontent{
+    /* padding-top: 100px; */
+    display: block;
+    line-height: 20px;
+    /* height: 400px; */
+  }
+  .maincontent>.profile>.cover{
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    background: rgb(229, 236, 249);
+    border-radius: 100px 10px 10px 10px;
+    /* color: #088395;
+    color:#05BFDB; Other colors*/
+    box-shadow: rgba(19, 136, 175, 0.4) 5px 5px, rgba(4, 126, 153, 0.3) 10px 10px, rgba(46, 211, 240, 0.2) 15px 15px, rgba(46, 224, 240, 0.1) 20px 20px, rgba(46, 217, 240, 0.05) 25px 25px;
+  }
+  .maincontent>.profile>.cover>img{
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    /* top: 515px; */
+    bottom: 0;
+    border-radius: 8px;
+  }
+  .maincontent>.headers{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .maincontent>.headers>p{
+    font-size: 18px;
+  }
+  .maincontent>.headers>h1{
+    color: #146C94;
+  }
+  .About{
+    width: 75%;
+  }
+  .indcators{
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  .indcators>svg{
+    margin:10px;
+    width: 100%;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #146C94;
+    background: #146C94;
+    margin: 10px auto;
+  }
+  .project-card{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+    
+  }
+  .project-card>div{
+    text-align: center;
+    margin: auto;
+  }
+  .project-card>img{
+    border: 4px solid #146C94;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 90%;
+    height: 300px;
+  }
+  .project-card-l{
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 0px;
+    direction: rtl;
+  }
+
+  .project-card-l>div{
+    text-align: center;
+    margin: auto;
+  }
+  .project-card-l>img{
+    border: 4px solid #146C94;
+    border-radius: 10px;
+    margin:10px auto;
+    width: 90%;
+    height: 300px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  body{
+    margin: 10px;
+  }
   .nav{
     display: flex;
     flex-direction: column;
