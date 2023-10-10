@@ -98,6 +98,10 @@ body {
   display: flex;
   margin: auto;
 }
+.indcators>svg{
+  margin: 20px 10px;
+  width: 50%;
+}
 
 .CircularProgressbar .CircularProgressbar-text{
   font-size: 12px !important;
