@@ -413,6 +413,10 @@ footer>h4{
   body{
     margin: 10px;
   }
+  .maincontent>.headers>p{
+    font-size: 16px;
+    line-height: 1.2em;
+  }
   .nav{
     display: flex;
     flex-direction: column;
