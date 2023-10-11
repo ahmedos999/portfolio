@@ -30,16 +30,7 @@ body {
   text-align: center;
   line-height: 2px;
 }
-/* .cv>a{
-  text-decoration: none;
-  color:black;
-  border: 2px solid black;
-  border-radius: 10px;
-  font-size: 14px;
-  padding: 5px;
-  font-family: 'Poppins', sans-serif;
-  background: white;
-} */
+
 .maincontent{
   padding-top: 100px;
   line-height: 20px;
@@ -59,17 +50,13 @@ body {
   color: #146C94;
 }
 
-/* .maincontent>.profile{
-
-} */
 .maincontent>.profile>.cover{
   position: relative;
   width: 465px;
   height: 400px;
   background: rgb(229, 236, 249);
   border-radius: 100px 10px 10px 10px;
-  /* color: #088395;
-  color:#05BFDB; Other colors*/
+
   box-shadow: rgba(19, 136, 175, 0.4) 5px 5px, rgba(4, 126, 153, 0.3) 10px 10px, rgba(46, 211, 240, 0.2) 15px 15px, rgba(46, 224, 240, 0.1) 20px 20px, rgba(46, 217, 240, 0.05) 25px 25px;
 }
 .maincontent>.profile>.cover>img{
