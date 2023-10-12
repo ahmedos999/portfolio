@@ -2,6 +2,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 20px;
+  background-image: url('imgs/bg.svg');
 }
 /* .gap{
   height: 20%;
