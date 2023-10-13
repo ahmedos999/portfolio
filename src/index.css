@@ -4,9 +4,7 @@ body {
   margin: 20px;
   background-image: url('imgs/bg.svg');
 }
-/* .gap{
-  height: 20%;
-} */
+
 .nav{
   display: flex;
   justify-content: space-around;
