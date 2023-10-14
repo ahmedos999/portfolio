@@ -7,7 +7,7 @@ export default function Main() {
         <div className="headers">
             <h3>Welcome</h3>
             <h1>I Am a Software engineer</h1>
-            <p>My name is Ahmed Sheikh, I am 24 years old Software engineer,SUST Information technology Graduate
+            <p>My name is Ahmed Sheikh, I am 24 years old Software engineer,Sudan university Information technology Graduate
                 Foucsed on Front-end development.
             </p>
             <p>Comfortable with Flutter framework,and developing my skills on React.js</p>
