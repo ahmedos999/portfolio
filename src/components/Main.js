@@ -5,8 +5,8 @@ export default function Main() {
   return (
     <div className="maincontent">
         <div className="headers">
-            <h3>Welcome</h3>
-            <h1>I Am a Software engineer</h1>
+            <h2>Welcome</h2>
+            <h1>I Am a Software Engineer</h1>
             <p>My name is Ahmed Sheikh, I am 24 years old Software engineer,Sudan university Information technology Graduate
                 Foucsed on Front-end development.
             </p>
