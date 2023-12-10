@@ -58,11 +58,13 @@ body {
   
 }
 .maincontent>.headers>h1{
+  font-family: 'Teko', sans-serif;
+  font-size: 52px !important;
   color: #00FFCA;
   background: #146C94;
-  letter-spacing: 1px;
+  letter-spacing: 2.2px;
   padding: 10px;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .maincontent>.profile>.cover{
@@ -101,17 +103,22 @@ body {
 .highlight>ul>li{
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-
+.highlight>ul>li>svg{
+  margin-right: 8px;
+}
 .About{
   margin: 0 auto;
   width: 60%;
   text-align: center;
 }
 .About>h2{
+  font-family: 'Teko';
   color: #146C94;
-  font-size: 26px;
-  letter-spacing: 1.2px;
+  font-size: 52px;
+  margin: 0;
+  letter-spacing:1.5px;
 }
 .About>p{
   font-size: 18px;
@@ -195,12 +202,15 @@ body {
   margin: 0 auto;
   /* width: 90%; */
   text-align: center;
+
   
 }
 .service>h2{
+  font-family: 'Teko';
   color: #146C94;
-  font-size: 26px;
-  letter-spacing: 1.2px;
+  font-size: 52px;
+  margin: 0;
+  letter-spacing:1.5px;
 }
 .service>p{
   font-size: 18px;
@@ -240,9 +250,11 @@ body {
   margin: 20px 0;
 }
 .work>h2{
+  font-family: 'Teko';
   color: #146C94;
-  font-size: 26px;
-  letter-spacing: 1.2px;
+  font-size: 52px;
+  margin: 0;
+  letter-spacing:1.5px;
 }
 .work>p{
   font-size: 18px;
