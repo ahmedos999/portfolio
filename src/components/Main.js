@@ -15,7 +15,6 @@ export default function Main() {
         </div>
         <div className="profile">
             <div className="cover"><img src={img} alt=""/></div>
-            
         </div>
     </div>
   )

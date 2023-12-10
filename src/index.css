@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Teko&display=swap');
 body {
   font-family: 'Poppins', sans-serif;
   margin: 20px;
@@ -82,6 +82,26 @@ body {
 }
 
 /* About page  */
+
+.highlight{
+  transform: rotate(2deg);
+  width: 102.7%;
+  background-color: #0d5374;
+  margin: 80px;
+  margin-left: -20px;
+  
+}
+.highlight>ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  color:#00FFCA;
+  font-size: 22px;
+}
+.highlight>ul>li{
+  display: flex;
+  align-items: center;
+}
 
 .About{
   margin: 0 auto;
