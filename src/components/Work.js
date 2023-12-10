@@ -8,7 +8,64 @@ export default function Work() {
     <div className='work'>
         <h2>Projects</h2>
         <p>Explore my various project i have been working on</p>
+        <div className="grid">
         <div className="project-card">
+            <img src={img} alt="" />
+            <h2>E-commarce Mobie application</h2>
+            <p>Mobile applcation for shopping from your mobile application with all the necessary function, project uses Flutter framework with Riverpod for state managment soluation with 10 diffrent screen, data is fetch from local json file in project</p>
+            <ul className='skills'>
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Riverpod</li>
+            </ul>
+
+            <a href='https://www.behance.net/ahmedxosman' className='button-50'>Project Preview Link</a>
+
+        </div>
+        <div className="project-card">
+            <img src={img2} alt="" />
+            <h2>Pharma Mobie application</h2>
+            <p>Mobile applcation for shopping from your mobile application with all the necessary function, project uses Flutter framework with Riverpod for state managment soluation with 10 diffrent screen, data is fetch from local json file in project</p>
+            <ul className='skills'>
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Provider</li>
+            </ul>
+
+            <a href='https://www.behance.net/ahmedxosman' className='button-50'>Project Preview Link</a>
+
+        </div>
+        <div className="project-card">
+            <img src={img3} alt="" />
+            <h2>Real Estate Mobie application</h2>
+            <p>project use flutter toolkit to design this UI with best practices, project use flutter toolkit to design this UI with best practices</p>
+            <ul className='skills'>
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Provider</li>
+            </ul>
+
+            <a href='https://www.behance.net/ahmedxosman' className='button-50'>Project Preview Link</a>
+
+        </div>
+        <div className="project-card">
+            <img src={img4} alt="" />
+            <h2>E-commarce Web application</h2>
+            <p>project use React framework with all the basic React hooks 5 diffrent screen, data is fetch from local json file in project</p>
+            <ul className='skills'>
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Provider</li>
+            </ul>
+            <a href='https://www.behance.net/ahmedxosman' className='button-50'>Project Preview Link</a>
+
+        </div>
+        </div>
+
+
+
+
+        {/* <div className="project-card">
             <img src={img} alt="" className="" />
             <div>
             <h2>E-commarce Mobie application</h2>
@@ -46,7 +103,7 @@ export default function Work() {
             <p>project use React framework with all the basic React hooks 5 diffrent screen, data is fetch from local json file in project</p>
             <a href='https://www.behance.net/ahmedxosman' className='button-50'>Project Preview Link</a>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

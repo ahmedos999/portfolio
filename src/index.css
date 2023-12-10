@@ -259,58 +259,51 @@ body {
 .work>p{
   font-size: 18px;
 }
-.project-card{
+.grid{
+  margin: 10px 70px;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
-  
+}
+.project-card{
+  border: 2px solid #146C94;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .project-card>img{
-  border: 4px solid #146C94;
+  border: 2px solid #146C94;
   border-radius: 10px;
   margin: 20px;
   width: 90%;
-  height: 500px;
+  height: 400px;
 }
-.project-card>div{
-  text-align: left;
-  margin: auto;
+.project-card>h2{
+  font-family: 'Teko';
+  font-size: 2em;
+  margin: 0;
+  letter-spacing: 1.2px;
+  }
+.project-card>p{
+text-align: left;
 }
-.project-card>div>h2{
-  font-size: 28px;
-  font-weight: bold;
-  color: #146C94;
-}
-.project-card>div>p{
-  font-size: 18px;
-}
-
-/* grid-auto-flow: row dense; */
-.project-card-l{
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 40px;
-  direction: rtl;
-}
-.project-card-l>img{
-  border: 4px solid #146C94;
-  border-radius: 10px;
-  margin: 20px;
-  width: 90%;
-  height: 500px;
-}
-.project-card-l>div{
-  text-align: left;
-  margin: auto;
-}
-.project-card-l>div>h2{
-  font-size: 28px;
-  font-weight: bold;
-  color: #146C94;
-}
-.project-card-l>div>p{
-  font-size: 18px;
-}
+.project-card>ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  }
+  .project-card>ul>li{
+    margin: 0 5px;
+    border: 1px solid #146C94;
+    padding: 5px 10px ;
+    border-radius: 20px;
+    color: #146C94;
+    }
+    .project-card>a{
+      align-self: flex-end;
+    }
 
 footer{
   margin: 0 -20px -20px -20px;
