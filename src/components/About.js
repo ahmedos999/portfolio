@@ -7,7 +7,12 @@ import { FaCss3 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { DiJqueryLogo } from "react-icons/di";
-
+import { FaVuejs } from "react-icons/fa";
+import { RiFlutterFill } from "react-icons/ri";
+import { FaReact } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
+import { SiSqlite } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
 export default function About() {
   return (
     
@@ -33,6 +38,17 @@ export default function About() {
         <CircularProgressbar value={80} maxValue={100} text='HTML/CSS' />
         </div>
     </div>
+
+    <div className='highlight'style={{transform: 'rotate(-2deg)'}}>
+       <ul>
+        <li><RiFlutterFill/> Flutter</li>
+        <li><FaReact /> React</li>
+        <li><SiNextdotjs /> Next js</li>
+        <li><FaVuejs /> Vue</li>
+        <li><SiSqlite /> SQLite</li>
+        <li><IoLogoFirebase /> Firebase</li>
+        </ul>
+      </div>
     </>
   )
 }
