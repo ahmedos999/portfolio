@@ -53,9 +53,9 @@ export default function Work() {
             <h2>E-commarce Web application</h2>
             <p>project use React framework with all the basic React hooks 5 diffrent screen, data is fetch from local json file in project</p>
             <ul className='skills'>
-                <li>Flutter</li>
-                <li>Dart</li>
-                <li>Provider</li>
+                <li>React</li>
+                <li>HTML</li>
+                <li>CSS</li>
             </ul>
             <a href='https://www.behance.net/ahmedxosman' className='button-50'>Project Preview Link</a>
 

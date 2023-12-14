@@ -36,6 +36,7 @@ export default function About() {
         <CircularProgressbar value={60} maxValue={100} text='Java Script' />
         <CircularProgressbar value={50} maxValue={100} text='Java' />
         <CircularProgressbar value={80} maxValue={100} text='HTML/CSS' />
+        <CircularProgressbar value={60} maxValue={100} text='SQL' />
         </div>
     </div>
 
