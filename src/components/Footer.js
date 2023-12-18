@@ -13,6 +13,9 @@ export default function Footer() {
             <h4>
                 Feel free to contact me and view my other social accounts
             </h4>
+            <h4>
+                This was created with React.js :)
+            </h4>
             <div className="socials">
             <div className="footer-icon">
                 <a href="https://www.behance.net/ahmedxosman"><AiFillBehanceCircle></AiFillBehanceCircle></a>

@@ -3,6 +3,9 @@ import img from '../imgs/project-1.png'
 import img2 from '../imgs/project-2.png'
 import img3 from '../imgs/project-3.png'
 import img4 from '../imgs/project-4.png'
+import img5 from '../imgs/project-5.png'
+import img6 from '../imgs/project-6.jpg'
+
 export default function Work() {
   return (
     <div className='work'>
@@ -56,6 +59,32 @@ export default function Work() {
                 <li>React</li>
                 <li>HTML</li>
                 <li>CSS</li>
+            </ul>
+            <a href='https://www.behance.net/ahmedxosman' className='button-50'>Project Preview Link</a>
+
+        </div>
+        <div className="project-card">
+            <img src={img5} alt="" />
+            <h2>Dashboard Design</h2>
+            <p>project use HTML / CSS and Tailwind to Create a Dashboard with charts display, Using CSS grid system for the layout</p>
+            <ul className='skills'>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Tailwind</li>
+                <li>JavaScript</li>
+            </ul>
+            <a href='https://www.behance.net/ahmedxosman' className='button-50'>Project Preview Link</a>
+
+        </div>
+        <div className="project-card">
+            <img src={img6} alt="" />
+            <h2>Car rental Mobile application</h2>
+            <p>project use Flutter framework with Bloc pattren to create well designed UI for car rental mobile application with all the features and JSON files for data manipulation</p>
+            <ul className='skills'>
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Bloc</li>
+                <li>Provider</li>
             </ul>
             <a href='https://www.behance.net/ahmedxosman' className='button-50'>Project Preview Link</a>
 

@@ -479,7 +479,25 @@ footer>h4{
     font-size: 18px;
   }
   
-
+  .highlight{
+    transform: rotate(2deg);
+    width: 105%;
+    background-color: #0d5374;
+    
+  }
+  .highlight>ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    color:#00FFCA;
+    font-size: 16px;
+  }
+  .highlight>ul>li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   .About{
     margin: 0 auto;
     width: 90%;
