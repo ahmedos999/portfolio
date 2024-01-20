@@ -13,6 +13,7 @@ import { FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { SiSqlite } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
+import { motion } from 'framer-motion';
 export default function About() {
   return (
     
@@ -32,11 +33,12 @@ export default function About() {
         <h2>About Me</h2>
         <p>I am software engnieer who is passionate about coding and creating digital content, I always looking to learn about new technologies, love new challanges and ways to improve my skills</p>
         <div className="indcators">
-        <div><CircularProgressbar value={80} maxValue={100} text='Dart' /></div>
-        <div><CircularProgressbar value={60} maxValue={100} text='Java Script' /></div>
-        <div><CircularProgressbar value={50} maxValue={100} text='Java' /></div>
-        <div><CircularProgressbar value={80} maxValue={100} text='HTML/CSS' /></div>
-        <div><CircularProgressbar value={60} maxValue={100} text='SQL' /></div>
+          {/* 333 167*/}
+        <motion.div initial={{x:333, opacity:0}} animate={{x:0, opacity:1}} transition={{delay:1, duration:0.5}}><CircularProgressbar value={80} maxValue={100} text='Dart' /></motion.div>
+        <motion.div initial={{x:167, opacity:0}} animate={{x:0,opacity:1}} transition={{delay:1, duration:0.5}}><CircularProgressbar value={60} maxValue={100} text='Java Script' /></motion.div>
+        <motion.div initial={{x:0}} animate={{x:0}} transition={{delay:1.5, duration:0.5}}><CircularProgressbar value={50} maxValue={100} text='Java' /></motion.div>
+        <motion.div initial={{x:-167, opacity:0}} animate={{x:0,opacity:1}} transition={{delay:1.5, duration:0.5}}><CircularProgressbar value={80} maxValue={100} text='HTML/CSS' /></motion.div>
+        <motion.div initial={{x:-333, opacity:0}} animate={{x:0,opacity:1}} transition={{delay:1.5, duration:0.5}}><CircularProgressbar value={60} maxValue={100} text='SQL' /></motion.div>
         </div>
     </div>
 
