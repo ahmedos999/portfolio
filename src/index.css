@@ -127,7 +127,7 @@ body {
   display: flex;
   margin: auto;
 }
-.indcators>svg{
+.indcators>div{
   margin: 20px 10px;
 }
 
@@ -403,7 +403,7 @@ footer>h4{
     display: flex;
     margin: auto;
   }
-  .indcators>svg{
+  .indcators>div{
     margin:10px;
     width: 100%;
   }
@@ -508,7 +508,7 @@ footer>h4{
     display: block;
     margin: auto;
   }
-  .indcators>svg{
+  .indcators>div{
     margin: 20px 10px;
     width: 50%;
   }
