@@ -46,7 +46,7 @@ const containerVariants = {
             variants={imgVariants}
             initial="hidden"
             animate="visible"
-            transition={{duration:1.5,delay:0.5}}
+            transition={{duration:1.5,delay:0.5,repeat:Infinity}}
             whileHover="hover"><img src={img} alt="" className='box'/></motion.div>
         </div>
     </div>
