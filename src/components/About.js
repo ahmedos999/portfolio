@@ -20,7 +20,7 @@ import { useInView } from 'framer-motion';
 
 export default function About() {
   const ref = useRef(null)
-  const isInView = useInView(ref)
+  const isInView = useInView(ref,{ once: true })
 
   return (
     
