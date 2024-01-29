@@ -1,10 +1,11 @@
 import React from 'react'
 import img from '../imgs/project-1.png'
 import img2 from '../imgs/project-2.png'
-import img3 from '../imgs/project-3.png'
+// import img3 from '../imgs/project-3.png'
 import img4 from '../imgs/project-4.png'
 import img5 from '../imgs/project-5.png'
 import img6 from '../imgs/project-6.jpg'
+import img7 from '../imgs/project-7.png'
 
 export default function Work() {
   return (
@@ -38,7 +39,7 @@ export default function Work() {
             <a href='https://www.behance.net/ahmedxosman' className='button-50'>Project Preview Link</a>
 
         </div>
-        <div className="project-card">
+        {/* <div className="project-card">
             <img src={img3} alt="" />
             <h2>Real Estate Mobie application</h2>
             <p>project use flutter toolkit to design this UI with best practices, project use flutter toolkit to design this UI with best practices</p>
@@ -50,7 +51,7 @@ export default function Work() {
 
             <a href='https://www.behance.net/ahmedxosman' className='button-50'>Project Preview Link</a>
 
-        </div>
+        </div> */}
         <div className="project-card">
             <img src={img4} alt="" />
             <h2>E-commarce Web application</h2>
@@ -87,6 +88,18 @@ export default function Work() {
                 <li>Provider</li>
             </ul>
             <a href='https://www.behance.net/ahmedxosman' className='button-50'>Project Preview Link</a>
+
+        </div>
+        <div className="project-card">
+            <img src={img7} alt="" />
+            <h2>E-commerce web application Front-end</h2>
+            <p>project use Next.js framework with Redux to Transform UI into front-end web application with all the features, Tailwind inline styles and Redux for state managment soluation</p>
+            <ul className='skills'>
+                <li>Next.js</li>
+                <li>Tailwind</li>
+                <li>Redux</li>
+            </ul>
+            <a href='https://www.behance.net/gallery/190197161/E-commerce-web-application-Front-end?' className='button-50'>Project Preview Link</a>
 
         </div>
         </div>
