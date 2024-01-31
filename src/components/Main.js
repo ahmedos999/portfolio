@@ -35,10 +35,10 @@ const containerVariants = {
         <div className="headers">
             <motion.h2 variants={containerVariants} initial="hidden" animate="visible" transition={{delay:0.2, duration:0.5, stiffness:500}}>Welcome</motion.h2>
             <motion.h1 variants={containerVariants} initial="hidden" animate="visible" transition={{delay:0.4,duration:0.5,stiffness:500}}>I Am a Software Engineer</motion.h1>
-            <motion.p variants={containerVariants} initial="hidden" animate="visible" transition={{delay:0.6,duration:0.5,stiffness:500}}>My name is Ahmed Sheikh, I Software engineer,Sudan university Information technology Graduate
+            <motion.p variants={containerVariants} initial="hidden" animate="visible" transition={{delay:0.6,duration:0.5,stiffness:500}}>My name is Ahmed Sheikh, I Software engineer, Sudan university Information technology Graduate
                 Foucsed on Front-end development.
             </motion.p>
-            <motion.p variants={containerVariants} initial="hidden" animate="visible" transition={{delay:0.8,duration:0.5,stiffness:500}}>Comfortable with Flutter framework,and developing my skills on React.js</motion.p>
+            <motion.p variants={containerVariants} initial="hidden" animate="visible" transition={{delay:0.8,duration:0.5,stiffness:500}}>Comfortable with Flutter framework, and developing my skills on React.js</motion.p>
             <motion.p variants={containerVariants} initial="hidden" animate="visible" transition={{delay:1,duration:0.5,stiffness:500}}>Always happy to learn new things</motion.p>
         </div>
         <div className="profile" >
