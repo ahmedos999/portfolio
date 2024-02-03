@@ -8,15 +8,16 @@ import { motion } from 'framer-motion'
 
 export default function Main() {
 
-  const titles = ['Software Engineer','Front-End Developr','Flutter Developer','React Developer']
-  const [title,setTitle] = useState(titles[0])
+  
+  const [title,setTitle] = useState('Software Engineer')
   
   useEffect(()=>{
+    const titles = ['Software Engineer','Front-End Developr','Flutter Developer','React Developer']
     var count = 0
     setInterval(()=>{
       count++
       count = count % 4
-      setTitle(titles[count])
+      setTitle(()=>titles[count])
     },5000)
   },[])
   
@@ -47,7 +48,7 @@ const containerVariants = {
     <div className="maincontent">
         <div className="headers">
             <motion.h2 variants={containerVariants} initial="hidden" animate="visible" transition={{delay:0.2, duration:0.5, stiffness:500}}>Welcome</motion.h2>
-            <motion.h1 variants={containerVariants} initial="hidden" animate="visible" transition={{delay:0.4,duration:0.5,stiffness:500}}>I Am a {title}</motion.h1>
+            <motion.h1 variants={containerVariants} initial="hidden" animate="visible" transition={{delay:0.4,duration:0.5,stiffness:500}} ><div className='title-animetion'>I Am a {title}</div></motion.h1>
             <motion.p variants={containerVariants} initial="hidden" animate="visible" transition={{delay:0.6,duration:0.5,stiffness:500}}>My name is Ahmed Sheikh, I Software engineer, Sudan university Information technology Graduate
                 Foucsed on Front-end development.
             </motion.p>

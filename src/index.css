@@ -37,6 +37,9 @@ body {
   text-align: center;
   line-height: 2px;
 }
+.title-animetion{
+  transition: 500ms ease-in-out;
+}
 
 .maincontent{
   padding-top: 100px;
