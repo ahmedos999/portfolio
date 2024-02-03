@@ -9,15 +9,17 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  /* background-color: #00FFCA; */
 }
 .logo>h3{
   color: #146C94;
 }
 .navlist{
-  background-color: #146C94;
-  color: white;
+  /* background-color: #146C94; */
+  color: #0d5374;
   padding: 0 45px;
-  box-shadow: rgba(19, 136, 175, 0.4) 0px 5px, rgba(4, 126, 153, 0.3) 0px 10px, rgba(46, 211, 240, 0.2) 0px 15px, rgba(46, 224, 240, 0.1) 0px 20px, rgba(46, 224, 240, 0.1) 0px 25px;
+  font-weight: bold;
+  /* box-shadow: rgba(19, 136, 175, 0.4) 0px 5px, rgba(4, 126, 153, 0.3) 0px 10px, rgba(46, 211, 240, 0.2) 0px 15px, rgba(46, 224, 240, 0.1) 0px 20px, rgba(46, 224, 240, 0.1) 0px 25px; */
 }
 .navlist>ul{
   display: flex;
