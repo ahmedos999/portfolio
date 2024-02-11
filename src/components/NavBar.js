@@ -11,11 +11,10 @@ export default function NavBar() {
         </div>
         <div className="navlist">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Projects</li>
-                <li>Contact me</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#socials">Socials</a></li>
             </ul>
         </div>
         <div className="cv">

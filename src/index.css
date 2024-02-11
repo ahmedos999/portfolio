@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Teko&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 20px;
   background-image: url('imgs/bg.svg');
+}
+a{
+  text-decoration: none;
+  color: #0d5374;
 }
 
 .nav{

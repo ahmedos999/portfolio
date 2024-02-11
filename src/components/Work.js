@@ -9,7 +9,7 @@ import img7 from '../imgs/project-7.png'
 
 export default function Work() {
   return (
-    <div className='work'>
+    <div className='work' id='projects'>
         <h2>Projects</h2>
         <p>Explore my various project i have been working on</p>
         <div className="grid">

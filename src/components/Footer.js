@@ -5,7 +5,7 @@ import {AiFillGithub} from "react-icons/ai"
 
 export default function Footer() {
   return (
-    <div>
+    <div id='socials'>
         <footer>
             <h3>
                 Thanks for visiting

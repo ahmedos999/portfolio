@@ -25,7 +25,7 @@ export default function About() {
   return (
     
     <>
-    <div className='highlight'>
+    <div className='highlight' id='about'>
        <ul>
         <li><FaHtml5/> HTML</li>
         <li><FaCss3 /> CSS</li>

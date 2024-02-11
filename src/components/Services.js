@@ -27,7 +27,7 @@ export default function Services() {
         }
     }
   return (
-    <div className='service' ref={ref}>
+    <div className='service' ref={ref} id='services'>
         <h2>Services</h2>
         <p>Preview and browse my distinguished services</p>
         {isInView && <div className="cards">
