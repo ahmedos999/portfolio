@@ -19,7 +19,7 @@ export default function Main() {
       count++
       count = count % 4
       setTitle(()=>titles[count])
-    },5000)
+    },4500)
   },[])
   
 
