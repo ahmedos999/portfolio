@@ -366,9 +366,9 @@ footer>h4{
     font-size: 16px;
   }
   .navlist{
-    background-color: #146C94;
+    /* background-color: #146C94; */
     color: white;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     margin: 15px 0;
   }
   .maincontent{
