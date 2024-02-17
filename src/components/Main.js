@@ -23,18 +23,6 @@ export default function Main() {
   },[])
   
 
-const imgVariants = {
-  hover:{
-    boxShadow:'rgba(15, 105, 136, 0.4) 5px 5px, rgba(3, 96, 117, 0.3) 10px 10px, rgba(33, 153, 174, 0.2) 15px 15px, rgba(37, 188, 202, 0.1) 20px 20px, rgba(32, 154, 170, 0.05) 25px 25px',
-  },
-  initial:{
-    boxShadow:'none'
-  },
-  visible:{
-    boxShadow:' rgba(19, 136, 175, 0.4) 5px 5px, rgba(4, 126, 153, 0.3) 10px 10px, rgba(46, 211, 240, 0.2) 15px 15px, rgba(46, 224, 240, 0.1) 20px 20px, rgba(46, 217, 240, 0.05) 25px 25px'
-  }
-}
-
 const containerVariants = {
   hidden:{
     x:"-100vw",
@@ -57,12 +45,8 @@ const containerVariants = {
             <motion.p variants={containerVariants} initial="hidden" animate="visible" transition={{delay:1,duration:0.5,stiffness:500}}>Always happy to learn new things</motion.p>
         </div>
         <div className="profile" >
-            <motion.div className="cover" 
-            variants={imgVariants}
-            initial="hidden"
-            animate="visible"
-            transition={{duration:1.5,delay:0.5,repeat:Infinity}}
-            whileHover="hover"><img src={img} alt="" className='box'/></motion.div>
+            <div className="cover" 
+            whileHover="hover"><img src={img} alt="" className='box'/></div>
         </div>
     </div>
   )
