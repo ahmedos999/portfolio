@@ -46,7 +46,7 @@ const containerVariants = {
         </div>
         <div className="profile" >
             <div className="cover" 
-            whileHover="hover"><img src={img} alt="" className='box'/></div>
+            ><img src={img} alt="" className='box'/></div>
         </div>
     </div>
   )
