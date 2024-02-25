@@ -49,7 +49,7 @@ export default function Services() {
             <motion.div variants={containerVariants} initial="start" animate="end" transition={{delay:0.9}} className="card">
             <div className="icon"><SiDynamics365 /></div>
                 <h4>ERP System</h4>
-                <p>Works as applcation engnieer for ERP modules specialized on microsoft dynamics 365 business central, for supply chain, sales and Warehouse managment</p>
+                <p>Works as application engineer for ERP modules specialized on microsoft dynamics 365 business central, for supply chain, sales and Warehouse managment</p>
             </motion.div>
         </div>}
     </div>
