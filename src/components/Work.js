@@ -67,7 +67,7 @@ export default function Work() {
         <div className="project-card">
             <img src={img5} alt="" />
             <h2>Dashboard Design</h2>
-            <p>project use HTML / CSS and Tailwind to Create a Dashboard with charts display, Using CSS grid system for the layout</p>
+            <p>Front end project use HTML / CSS and Tailwind to Create a Dashboard with charts display, Using CSS grid system for the layout</p>
             <ul className='skills'>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -80,7 +80,7 @@ export default function Work() {
         <div className="project-card">
             <img src={img6} alt="" />
             <h2>Car rental Mobile application</h2>
-            <p>project use Flutter framework with Bloc pattren to create well designed UI for car rental mobile application with all the features and JSON files for data manipulation</p>
+            <p>Mobile application project use Flutter framework with Bloc pattren to create well designed UI for car rental mobile application with all the features and JSON files for data manipulation</p>
             <ul className='skills'>
                 <li>Flutter</li>
                 <li>Dart</li>
@@ -93,7 +93,7 @@ export default function Work() {
         <div className="project-card">
             <img src={img7} alt="" />
             <h2>E-commerce web application Front-end</h2>
-            <p>project use Next.js framework with Redux to Transform UI into front-end web application with all the features, Tailwind inline styles and Redux for state managment soluation</p>
+            <p>Web application project use Next.js framework with Redux to Transform UI into front-end web application with all the features, Tailwind inline styles and Redux for state managment soluation</p>
             <ul className='skills'>
                 <li>Next.js</li>
                 <li>Tailwind</li>
