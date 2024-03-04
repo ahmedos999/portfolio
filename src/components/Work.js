@@ -55,7 +55,7 @@ export default function Work() {
         <div className="project-card">
             <img src={img4} alt="" />
             <h2>E-commarce Web application</h2>
-            <p>project use React framework with all the basic React hooks 5 diffrent screen, data is fetch from local json file in project</p>
+            <p>Web application project use React framework with all the basic React hooks 5 diffrent screen, data is fetch from local json file in project</p>
             <ul className='skills'>
                 <li>React</li>
                 <li>HTML</li>
