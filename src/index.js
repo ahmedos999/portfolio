@@ -7,11 +7,11 @@ import ReactGA from 'react-ga4'
 
 const TRACKING_ID = process.env.REACT_APP_TRACKING_ID
 
-ReactGA.initialize(TRACKING_ID)
+ReactGA.initialize(TRACKING_ID,{'debug_mode':true})
 
 ReactGA.send({
   hitType:"pageview",
-  page:window.location.pathname
+  page:window.location.pathname,
 })
 
 
