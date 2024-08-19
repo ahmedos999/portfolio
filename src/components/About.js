@@ -7,12 +7,12 @@ import { FaCss3 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { DiJqueryLogo } from "react-icons/di";
-import { FaVuejs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
 import { RiFlutterFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { SiSqlite } from "react-icons/si";
-import { IoLogoFirebase } from "react-icons/io5";
+import { DiMongodb } from "react-icons/di";
 import { motion } from 'framer-motion';
 
 import { useInView } from 'framer-motion';
@@ -41,8 +41,8 @@ export default function About() {
         <p>I am software engnieer who is passionate about coding and creating digital content, I always looking to learn about new technologies, love new challanges and ways to improve my skills</p>
         {isInView && <div className="indcators">
           {/* 333 167*/}
-        <motion.div  initial={{x:333, opacity:0}} animate={{x:0, opacity:1}} transition={{delay:1, duration:0.5,ease: "easeOut"}}><CircularProgressbar value={80} maxValue={100} text='Dart' /></motion.div>
-        <motion.div initial={{x:167, opacity:0}} animate={{x:0,opacity:1}} transition={{delay:1, duration:0.5,ease: "easeOut"}}><CircularProgressbar value={60} maxValue={100} text='Java Script' /></motion.div>
+        <motion.div  initial={{x:333, opacity:0}} animate={{x:0, opacity:1}} transition={{delay:1, duration:0.5,ease: "easeOut"}}><CircularProgressbar value={80} maxValue={100} text='Type Script' /></motion.div>
+        <motion.div initial={{x:167, opacity:0}} animate={{x:0,opacity:1}} transition={{delay:1, duration:0.5,ease: "easeOut"}}><CircularProgressbar value={70} maxValue={100} text='Dart' /></motion.div>
         <motion.div initial={{x:0}} animate={{x:0}} transition={{delay:1.5, duration:0.5}}><CircularProgressbar value={50} maxValue={100} text='Java' /></motion.div>
         <motion.div initial={{x:-167, opacity:0}} animate={{x:0,opacity:1}} transition={{delay:1.5, duration:0.5,ease: "easeOut"}}><CircularProgressbar value={80} maxValue={100} text='HTML/CSS' /></motion.div>
         <motion.div initial={{x:-333, opacity:0}} animate={{x:0,opacity:1}} transition={{delay:1.5, duration:0.5,ease: "easeOut"}}><CircularProgressbar value={60} maxValue={100} text='SQL' /></motion.div>
@@ -53,10 +53,10 @@ export default function About() {
        <ul>
         <li><RiFlutterFill/> Flutter</li>
         <li><FaReact /> React</li>
-        <li><SiNextdotjs /> Next js</li>
-        <li><FaVuejs /> Vue</li>
+        <li><SiNextdotjs /> Next.js</li>
+        <li><SiExpress /> Express.js</li>
         <li><SiSqlite /> SQLite</li>
-        <li><IoLogoFirebase /> Firebase</li>
+        <li><DiMongodb /> MongoDB</li>
         </ul>
       </div>
     </>

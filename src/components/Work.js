@@ -6,6 +6,7 @@ import img4 from '../imgs/project-4.png'
 import img5 from '../imgs/project-5.png'
 import img6 from '../imgs/project-6.jpg'
 import img7 from '../imgs/project-7.png'
+import img8 from '../imgs/project-8.png'
 
 export default function Work() {
   return (
@@ -13,6 +14,21 @@ export default function Work() {
         <h2>Projects</h2>
         <p>Explore my various project i have been working on</p>
         <div className="grid">
+        <div className="project-card">
+            <img src={img8} alt="" />
+            <h2>Project Management Full stack application (MERN)</h2>
+            <p>Web Application that manage tasks between team with all the functionality to manipulate tasks With Drag and Drop use and assging them to other users, with secure and authenticated APIs </p>
+            <ul className='skills'>
+                <li>React</li>
+                <li>tailwind</li>
+                <li>Express.js</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+            </ul>
+
+            <a href='https://project-manager-mern-five.vercel.app/' className='button-50'>Project Preview Link</a>
+
+        </div>
         <div className="project-card">
             <img src={img} alt="" />
             <h2>E-commarce Mobie application</h2>
