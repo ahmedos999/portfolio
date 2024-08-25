@@ -29,7 +29,7 @@ export default function Services() {
   return (
     <div className='service' ref={ref} id='services'>
         <h2>Services</h2>
-        <p>Preview and browse my distinguished services</p>
+        <p>Preview my distinguished services</p>
         {isInView && <div className="cards">
             <motion.div variants={containerVariants} initial="start" animate="end" className="card">
             <div className="icon"><BiLogoFlutter /></div>
